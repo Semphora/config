@@ -26,6 +26,8 @@ set showmatch
 
 "UX {{{
 :inoremap jk <esc>
+:nnoremap j gj
+:nnoremap k gk
 "}}}
 
 "Communication with the anything outside vim {{{
