@@ -116,11 +116,12 @@ if ! shopt -oq posix; then
   fi
 fi
 
-#custome alias to restart the networkmanager
+tome alias to restart the networkmanager
 alias rc='sudo service network-manager restart'
 #map rm to rm -t to ensure promting before delting. temporarely disable with \rm
 alias rm='rm -i'
-alias std='cd ~/Dropbox/Technische\ Informatik\ Studium\ TU\ Berlin/Semester\ 1/'
-alias ckurs='cd ~/Dropbox/Technische\ Informatik\ Studium\ TU\ Berlin/Semester\ 1/Einführung\ in\ die\ Programmierung/Hausaufgaben/introprog-wise1617'
-alias config='/usr/bin/git --git-dir=/home/semphora/.cfg/ --work-tree=/home/semphora'
+alias std='cd ~/Dropbox/Technische\ Informatik\ Studium\ TU\ Berlin/'
 alias mv='mv -i'
+
+
+
