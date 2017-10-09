@@ -116,7 +116,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-tome alias to restart the networkmanager
+#custome alias to restart the networkmanager
 alias rc='sudo service network-manager restart'
 #map rm to rm -t to ensure promting before delting. temporarely disable with \rm
 alias rm='rm -i'
